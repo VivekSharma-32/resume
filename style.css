@@ -1,12 +1,10 @@
 body {
-    margin: 0px;
+    margin: 0;
     font-family: sans-serif;
     font-size: 30px;
 }
 
-
-
-/* Body Header */
+/* Body header  */
 
 #body-header {
     height: 65vh;
@@ -18,26 +16,24 @@ body {
     padding-top: 1.2rem;
 }
 
-
-
-/* Horizontal Lists */
+/* Horizontal lists  */
 
 .horizontal-list {
     list-style: none;
-    padding-left: 0px;
-    margin: 0px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .horizontal-list li {
     display: inline-block;
-    margin: 0px 8px 8px 0px;
+    margin: 0 8px 8px 0;
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .horizontal-list li a {
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
 .nav-menu li a {
@@ -45,7 +41,7 @@ body {
 }
 
 .nav-menu li a:hover {
-    color: lightgrey;
+    color: lightgray;
     border-bottom: 1px solid black;
 }
 
@@ -53,9 +49,7 @@ body {
     text-align: center;
 }
 
-
-
-/* Name and Social Icons*/
+/* Name and social icons  */
 
 #name-social-container {
     margin-top: 20vh;
@@ -79,9 +73,7 @@ body {
     box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
 
-
-
-/*Section Classes*/
+/* Section classes  */
 
 section {
     display: flex;
@@ -94,7 +86,7 @@ section:nth-child(2n) {
     background-color: #9e9b9b29;
 }
 
-section:nth-child(2n + 1) {
+section:nth-child(2n+1) {
     background-color: white;
 }
 
@@ -112,27 +104,24 @@ section:nth-child(2n + 1) {
     margin-right: 0.5rem;
 }
 
-
-
-/*About Section*/
-
+/* About  */
 #about {
     height: auto;
     width: 100%;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #my-image {
-    height: 12rem;
     width: 12rem;
+    height: 12rem;
     margin: auto;
     margin-top: -17vh;
 }
 
 #my-image img {
-    height: 100%;
     width: 100%;
+    height: 100%;
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 1px 1px 10px 2px lightgrey;
@@ -148,9 +137,7 @@ section:nth-child(2n + 1) {
     margin: auto;
 }
 
-
-
-/*Skills Section*/
+/* Skills  */
 
 .skills-display {
     width: 75%;
@@ -164,7 +151,7 @@ section:nth-child(2n + 1) {
 .skill-progress {
     width: 11rem;
     height: 2.2rem;
-    background-color: lightgrey;
+    background-color: lightgray;
     border-radius: 1rem;
     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
     margin: 25px;
@@ -178,14 +165,12 @@ section:nth-child(2n + 1) {
 
 .skill-name span {
     color: white;
-    font-size: 1rem;
     margin-left: 10px;
+    font-size: 1rem;
     vertical-align: middle;
 }
 
-
-
-/* Work Experience */
+/* Work experience  */
 
 .timeline {
     position: relative;
@@ -206,7 +191,7 @@ section:nth-child(2n + 1) {
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: lightgrey;
+    background-color: lightgray;
     top: 25%;
     border-radius: 50%;
     z-index: 1;
@@ -240,12 +225,13 @@ section:nth-child(2n + 1) {
 
 #timeline-divider {
     position: absolute;
-    width: 0;
     top: 10%;
     left: 50%;
+    width: 0;
     border: 1px dashed #0096fa6b;
     height: 66%;
     color: #433E3F;
+
 }
 
 #timeline-divider .timeline-traveller {
@@ -263,13 +249,15 @@ section:nth-child(2n + 1) {
 
 .experience-designation {
     font-size: 1.4rem;
+    text-transform: capitalize;
 }
 
 .experience-company-name {
-    margin: 5px 0 0;
+    margin: 2px 0 2px;
     color: #eb822d;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-transform: capitalize;
 }
 
 .experience-duration {
@@ -289,8 +277,6 @@ section:nth-child(2n + 1) {
 .text-align-justify {
     text-align: justify;
 }
-
-
 
 /* Portfolio Section */
 
@@ -326,6 +312,8 @@ section:nth-child(2n + 1) {
     color: transparent;
     text-align: center;
     padding: 10px;
+    vertical-align: middle;
+
 }
 
 .portfolio-image-container:hover {
@@ -337,9 +325,7 @@ section:nth-child(2n + 1) {
     color: white;
 }
 
-
-
-/* Contact Form */
+/* Contact Section  */
 
 #contact {
     background-color: #0abcf9;
@@ -377,8 +363,8 @@ section:nth-child(2n + 1) {
 }
 
 #my-details-container p {
-    color: #d9dcdd;
     font-size: 0.9rem;
+    color: #d9dcdd;
 }
 
 .my-details-info-container {
@@ -395,13 +381,12 @@ section:nth-child(2n + 1) {
     color: white;
 }
 
-.my-details-icon {
+/* .my-details-icon {
     width: 1rem;
     height: 1rem;
     vertical-align: bottom;
     margin-right: 0.5rem;
-}
-
+} */
 
 #contact-form input,
 textarea {
@@ -452,25 +437,7 @@ button:focus {
     outline: none;
 }
 
-
-
-/* Common Margin Classes */
-
-.m0 {
-    margin: 0;
-}
-
-.mb75px {
-    margin-bottom: 75px;
-}
-
-.mb50px {
-    margin-bottom: 50px;
-}
-
-
-
-/*common color classes */
+/* Common color classes  */
 
 .text-highlight {
     color: #2857a4;
@@ -479,15 +446,23 @@ button:focus {
 }
 
 
-
-/* setting background-color */
-
-.m-blue {
-    color: #2857a4;
+/* Common margin classes  */
+.m-0 {
+    margin: 0;
 }
+
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+/* Setting Background classes  */
 
 .mb-blue {
     background-color: #2857a4;
+}
+
+.mb-green {
+    background-color: green;
 }
 
 .mb-orange {
@@ -498,13 +473,20 @@ button:focus {
     background-color: #0b8176;
 }
 
+.mb-red {
+    background-color: #f00000;
+}
+
 .mb-light-purple {
     background-color: #93738c;
 }
 
+/* Percentage classes  */
 
-
-/*Percentage Classes */
+.seventy-percent {
+    height: inherit;
+    width: 70%;
+}
 
 .eighty-five-percent {
     height: inherit;
