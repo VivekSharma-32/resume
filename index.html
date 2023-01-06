@@ -1,181 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vivek Sharma</title>
-    <script
-      src="https://kit.fontawesome.com/b3348ae33f.js"
+    <title>Portfolio - Vivek Sharma</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <header id="body-header">
       <nav>
-        <ul class="horizontal-list text-center nav-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <div class="dropdown-menu text-right">
+          <div class="bars">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="dropdown-list nav-menu">
+            <ul class="no-list-style">
+              <li>
+                <a href="#"> Home </a>
+              </li>
+              <li>
+                <a href="#about"> About </a>
+              </li>
+              <li>
+                <a href="#skills"> Skills </a>
+              </li>
+              <li>
+                <a href="#experience">Experience</a>
+              </li>
+              <li>
+                <a href="#education">Education</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <ul class="no-list-style horizontal-list text-center nav-menu">
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="#about"> About </a>
+          </li>
+          <li>
+            <a href="#skills"> Skills </a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
+
       <div id="name-social-container">
         <div class="text-center">
           <h1 id="my-name">Vivek Sharma</h1>
         </div>
         <div>
-          <ul class="horizontal-list text-center social-icons">
+          <ul class="no-list-style horizontal-list text-center social-icons">
             <li>
-              <a href="#">
-                <i class="fa-brands fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/vivek-sharma-737672160/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="fa-brands fa-stack-overflow"></i>
+              <a
+                href="https://www.facebook.com/profile.php?id=100032761180962"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="fa-brands fa-google-plus-g"></i>
+              <a href="https://www.instagram.com/the_vivek.sh/" target="_blank">
+                <i class="fab fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-quora"></i>
+              <a href="https://github.com/VivekSharma-32" target="_blank">
+                <i class="fab fa-github"></i>
               </a>
             </li>
           </ul>
         </div>
       </div>
     </header>
-
     <main>
       <section id="about">
         <div id="my-image">
-          <img src="./image/my-pic.PNG" alt="my-image" />
+          <img src="./image/my-pic.PNG" />
         </div>
+
         <div id="about-para">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-            dolorum repellat blanditiis aut minus quae eligendi voluptatum eaque
-            illo, voluptatibus, autem voluptas dolore? Consectetur, totam in
-            facilis ex quibusdam ipsam.<span class="text-highlight"
-              >Lorem ipsum dolor sit amet.</span
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus voluptatibus numquam iusto. Quae ducimus a earum,
-            molestias, modi non mollitia quidem, commodi quas illo quaerat nam
-            aliquam delectus esse officiis!
+            I have worked as a web developer for
+            <span class="text-highlight">1.4+ years</span> in a startup company.
+            I used to build the website from scratch and modify the website
+            according to the client needs. I used to do SEO as well. After that
+            I switched the company and joined another commpany. I worked as a
+            <span class="text-highlight">Reactjs developer</span> for 4 months.
+            I used to build the website layout from the wireframes. My primary
+            tasks were building the UIs and adding functionality to the page.
           </p>
         </div>
       </section>
+
       <section id="skills">
-        <h1 class="section-heading mb-75">
+        <h1 class="section-heading mb75px">
           <span>
             <i class="fas fa-chalkboard-teacher"></i>
           </span>
           <span> SKILLS </span>
         </h1>
+
         <div class="skills-display">
           <div class="skill-progress">
-            <div class="seventy-percent mb-blue">
+            <div class="fifty-percent mb-blue">
               <div class="skill-name">
-                <span>HTML</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-progress">
-            <div class="seventy-percent mb-orange">
-              <div class="skill-name">
-                <span>CSS</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-progress">
-            <div class="seventy-percent mb-light-purple">
-              <div class="skill-name">
-                <span>Javascript</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-progress">
-            <div class="seventy-percent mb-blue">
-              <div class="skill-name">
-                <span>Bootstrap</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-progress">
-            <div class="seventy-percent mb-red">
-              <div class="skill-name">
-                <span>React</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-progress">
-            <div class="seventy-percent mb-teal">
-              <div class="skill-name">
-                <span>Nodejs</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-progress">
-            <div class="seventy-percent mb-green">
-              <div class="skill-name">
-                <span>MongoDB</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-progress">
-            <div class="seventy-percent mb-blue">
-              <div class="skill-name">
-                <span>Express</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-progress">
-            <div class="eighty-percent mb-light-purple">
-              <div class="skill-name">
-                <span>PHP</span>
+                <span> C++ </span>
               </div>
             </div>
           </div>
           <div class="skill-progress">
             <div class="eighty-five-percent mb-orange">
               <div class="skill-name">
-                <span>MySQL</span>
+                <span> HTML </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent mb-light-purple">
+              <div class="skill-name">
+                <span> CSS </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="fifty-percent mb-teal">
+              <div class="skill-name">
+                <span> Javascript </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="fifty-percent mb-blue">
+              <div class="skill-name">
+                <span> NodeJs </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent mb-light-purple">
+              <div class="skill-name">
+                <span> MongoDB </span>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section id="experience">
-        <h1 class="section-heading mb-75">
+        <h1 class="section-heading mb75px">
           <span>
             <i class="fas fa-briefcase"></i>
           </span>
           <span> Work Experience </span>
         </h1>
+
         <div class="timeline">
-          <div class="timeline-box left">
+          <div class="timeline-box">
             <div class="timeline-container">
               <div class="timeline-logo">
-                <img src="./image/devscope-logo.png" alt="devscope-logo" />
+                <img src="./image/devscope-logo.png" />
               </div>
-              <h3 class="experience-designation m-0 m-blue">Web developer</h3>
+              <h3 class="experience-designation m0 m-blue">Web Developer</h3>
               <h4 class="experience-company-name">Devscope IT</h4>
-              <h5 class="experience-duration m-0">January 2021 - March 2022</h5>
-              <p class="experience-description text-align-justify">
+              <h5 class="experience-duration m0">January 2021 - March 2022</h5>
+
+              <p class="experience-description text-justify">
                 Building the website from scratch. Modifying the existing
                 website. Designing and developing the website. Managing the
                 database
@@ -184,19 +207,16 @@
           </div>
 
           <div class="timeline-box right">
-            <div class="timeline-contaniner">
+            <div class="timeline-container">
               <div class="timeline-logo">
-                <img
-                  src="./image/addval-solutions-logo.png"
-                  alt="addval-solutions-logo"
-                />
+                <img src="./image/addval-solutions-logo.png" />
               </div>
-              <h3 class="experience-designation m-0 m-blue">
-                Reactjs developer
+              <h3 class="experience-designation m0 m-blue">
+                Reactjs Developer
               </h3>
-              <h4 class="experience-company-name">Addval solutions</h4>
-              <h5 class="experience-duration m-0">April 2022 - August 2022</h5>
-              <p class="experience-description text-align-justify">
+              <h4 class="experience-company-name">Addval Solutions</h4>
+              <h5 class="experience-duration m0">April 2022 - August 2022</h5>
+              <p class="experience-description text-justify">
                 Building the beautiful UI's using the frontend technologies.
                 Adding functionality to the webpages. Integrating front-end with
                 the backend. Using the REST APIs in order to communicate
@@ -206,17 +226,17 @@
           </div>
 
           <div class="timeline-box left">
-            <div class="timeline-contaniner">
+            <div class="timeline-container">
               <div class="timeline-logo">
                 <img
                   src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
-                  alt=""
                 />
               </div>
-              <h3 class="experience-designation m-0 m-blue">Internship</h3>
-              <h4 class="experience-company-name">Coding ninjas</h4>
-              <h5 class="experience-duration m-0">Aug 2022 - Present</h5>
-              <p class="experience-description text-align-justify">
+              <h3 class="experience-designation m0 m-blue">Internship</h3>
+              <h4 class="experience-company-name">Coding Ninjas</h4>
+              <h5 class="experience-duration m0">Aug 2022 - Present</h5>
+
+              <p class="experience-description text-justify">
                 Full stack web development using MERN stack.
               </p>
             </div>
@@ -231,6 +251,7 @@
           </div>
         </div>
       </section>
+
       <section id="education">
         <h1 class="section-heading mb75px">
           <span>
@@ -238,41 +259,70 @@
           </span>
           <span> Education </span>
         </h1>
+
         <div class="timeline">
           <div class="timeline-box left">
             <div class="timeline-container">
-              <div class="timeline-logo">
-                <img src="./image/macbook_mouse.jpg" alt="" />
-              </div>
-              <h3 class="experience-designation m-0 m-blue">
+              <!-- <div class="timeline-logo">
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png"
+                />
+              </div> -->
+              <h3 class="experience-designation m0 m-blue">
                 Computer Engineering
               </h3>
               <h4 class="experience-company-name">YCET, Jammu</h4>
-              <h5 class="experience-duration m-0">July 2015 - April 2019</h5>
+              <h5 class="experience-duration m0">July 2015 - April 2019</h5>
+
+              <p class="experience-description text-justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
             </div>
           </div>
 
           <div class="timeline-box right">
             <div class="timeline-container">
-              <div class="timeline-logo">
-                <img src="./image/macbook_mouse.jpg" alt="" />
-              </div>
-              <h3 class="experience-designation m-0 m-blue">12<sup>th</sup></h3>
-              <h4 class="experience-company-name">Govt Boys Hr. Sec. School</h4>
-              <h5 class="experience-duration m-0">May 2012 - April 2013</h5>
+              <!-- <div class="timeline-logo">
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png"
+                />
+              </div> -->
+              <h3 class="experience-designation m0 m-blue">12<sup>th</sup></h3>
+              <h4 class="experience-company-name">
+                Govt Boys Hr. Sec. School Nowshera
+              </h4>
+              <h5 class="experience-duration m0">May 2012 - April 2013</h5>
+              <p class="experience-description text-justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
             </div>
           </div>
 
-          <div class="timeline-box right">
+          <div class="timeline-box left">
             <div class="timeline-container">
-              <div class="timeline-logo">
-                <img src="./image/macbook_mouse.jpg" alt="" />
-              </div>
-              <h3 class="experience-designation m-0 m-blue">10<sup>th</sup></h3>
-              <h4 class="experience-company-name">Govt Boys Hr. Sec. School</h4>
-              <h5 class="experience-duration m-0">
-                March 2010 - February 2011
-              </h5>
+              <!-- <div class="timeline-logo">
+                <img
+                  src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png"
+                />
+              </div> -->
+              <h3 class="experience-designation m0 m-blue">10<sup>th</sup></h3>
+              <h4 class="experience-company-name">
+                Govt Boys Hr. Sec. School Nowshera
+              </h4>
+              <h5 class="experience-duration m0">March 2010 - February 2011</h5>
+
+              <p class="experience-description text-justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
             </div>
           </div>
 
@@ -285,6 +335,7 @@
           </div>
         </div>
       </section>
+
       <section id="portfolio">
         <h1 class="section-heading mb75px">
           <span>
@@ -296,30 +347,55 @@
         <div id="portfolio-container">
           <div class="portfolio-image-container">
             <img
-              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000026_1550237353_project_2.jpeg"
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png"
             />
             <div class="portfolio-details">
-              <p>AVEC Group Real Estate Project</p>
+              <p>Write here basic details about the project.</p>
             </div>
           </div>
           <div class="portfolio-image-container">
             <img
-              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000026_1550237353_project_2.jpeg"
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png"
             />
             <div class="portfolio-details">
-              <p>Chartered Accountants</p>
+              <p>Write here basic details about the project.</p>
             </div>
           </div>
           <div class="portfolio-image-container">
             <img
-              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000026_1550237353_project_2.jpeg"
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png"
             />
             <div class="portfolio-details">
-              <p>M&M Food Products Wholesalers and retailers</p>
+              <p>Write here basic details about the project.</p>
+            </div>
+          </div>
+          <div class="portfolio-image-container">
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png"
+            />
+            <div class="portfolio-details">
+              <p>Write here basic details about the project.</p>
+            </div>
+          </div>
+          <div class="portfolio-image-container">
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png"
+            />
+            <div class="portfolio-details">
+              <p>Write here basic details about the project.</p>
+            </div>
+          </div>
+          <div class="portfolio-image-container">
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png"
+            />
+            <div class="portfolio-details">
+              <p>Write here basic details about the project.</p>
             </div>
           </div>
         </div>
       </section>
+
       <section id="contact">
         <h1 class="section-heading mb50px">
           <span>
@@ -329,7 +405,7 @@
         </h1>
         <div id="contact-container">
           <div id="contact-form-container">
-            <form action="#" id="contact-form">
+            <form id="contact-form">
               <input
                 id="input-name"
                 name="name"
@@ -354,20 +430,17 @@
             </form>
           </div>
           <div id="my-details-container">
-            <h3>Get in touch</h3>
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
-            </p>
-            <h3>Address</h3>
+            <h3>Get In touch</h3>
+            <p>I am available 24/7 for your help</p>
+
+            <h3>My Address</h3>
             <div class="my-details-info-container">
               <i class="fas fa-map-marker-alt"></i>
               <span>Jammu, India</span>
             </div>
             <div class="my-details-info-container">
               <i class="fas fa-mobile-alt"></i>
-              <span>+91-8493018103</span>
+              <span>+91-8493018103 / +91-6006552260</span>
             </div>
             <div class="my-details-info-container">
               <i class="far fa-envelope"></i>
@@ -375,44 +448,33 @@
             </div>
           </div>
         </div>
+
         <div class="text-center social-icons">
-          <ul class="horizontal-list">
+          <ul class="no-list-style horizontal-list text-center social-icons">
             <li>
-              <a href="https://www.linkedin.com/in/manisha-khattar-b5663641/">
+              <a
+                href="https://www.linkedin.com/in/vivek-sharma-737672160/"
+                target="_blank"
+              >
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
-
             <li>
               <a
-                href="https://stackoverflow.com/users/5608414/manisha?tab=profile"
+                href="https://www.facebook.com/profile.php?id=100032761180962"
                 target="_blank"
               >
-                <i class="fab fa-stack-overflow"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="https://plus.google.com/u/0/103030702784925512939"
-                target="_blank"
-              >
-                <i class="fab fa-google-plus-g"></i>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.facebook.com/manishakhattar54">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
-
             <li>
-              <a
-                href="https://www.quora.com/profile/Manisha-Khattar"
-                target="_blank"
-              >
-                <i class="fab fa-quora"></i>
+              <a href="https://www.instagram.com/the_vivek.sh/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/VivekSharma-32" target="_blank">
+                <i class="fab fa-github"></i>
               </a>
             </li>
           </ul>

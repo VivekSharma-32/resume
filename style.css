@@ -1,10 +1,15 @@
 body {
-    margin: 0;
+    margin: 0px;
     font-family: sans-serif;
     font-size: 30px;
 }
 
-/* Body header  */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Body Header */
 
 #body-header {
     height: 65vh;
@@ -16,40 +21,81 @@ body {
     padding-top: 1.2rem;
 }
 
-/* Horizontal lists  */
+
+
+/* Horizontal Lists */
+
+.bars {
+    color: white;
+    margin: 0;
+    margin-right: 5%;
+    display: none;
+}
+
+.bars i {
+    font-size: 2rem;
+}
+
+.dropdown-list {
+    margin: 0;
+    display: none;
+    background-color: #828470;
+    box-shadow: 0px 4px 8px 1px #535547;
+}
+
+.dropdown-list ul {
+    margin: 0.2rem 0.2rem;
+    text-align: left;
+    padding: 0px 0.8rem;
+}
+
+.dropdown-menu:hover .dropdown-list {
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+
+.dropdown-list li {
+    margin: 0.4rem 0px;
+}
+
+.no-list-style {
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.no-list-style li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
 
 .horizontal-list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
+    padding-left: 0px;
+    margin: 0px;
 }
 
 .horizontal-list li {
     display: inline-block;
-    margin: 0 8px 8px 0;
-    font-weight: 100;
-    font-size: 1rem;
+    margin: 0px 8px 8px 0px;
 }
 
-.horizontal-list li a {
-    text-decoration: none;
-    color: white;
-}
 
 .nav-menu li a {
     transition: color 0.5s, border-bottom 4s;
 }
 
 .nav-menu li a:hover {
-    color: lightgray;
+    color: lightgrey;
     border-bottom: 1px solid black;
 }
 
-.text-center {
-    text-align: center;
-}
 
-/* Name and social icons  */
+/* Name and Social Icons*/
 
 #name-social-container {
     margin-top: 20vh;
@@ -73,7 +119,9 @@ body {
     box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
 
-/* Section classes  */
+
+
+/*Section Classes*/
 
 section {
     display: flex;
@@ -86,7 +134,7 @@ section:nth-child(2n) {
     background-color: #9e9b9b29;
 }
 
-section:nth-child(2n+1) {
+section:nth-child(2n + 1) {
     background-color: white;
 }
 
@@ -104,24 +152,27 @@ section:nth-child(2n+1) {
     margin-right: 0.5rem;
 }
 
-/* About  */
+
+
+/*About Section*/
+
 #about {
     height: auto;
     width: 100%;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #my-image {
-    width: 12rem;
     height: 12rem;
+    width: 12rem;
     margin: auto;
     margin-top: -17vh;
 }
 
 #my-image img {
-    width: 100%;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 1px 1px 10px 2px lightgrey;
@@ -137,7 +188,9 @@ section:nth-child(2n+1) {
     margin: auto;
 }
 
-/* Skills  */
+
+
+/*Skills Section*/
 
 .skills-display {
     width: 75%;
@@ -151,7 +204,7 @@ section:nth-child(2n+1) {
 .skill-progress {
     width: 11rem;
     height: 2.2rem;
-    background-color: lightgray;
+    background-color: lightgrey;
     border-radius: 1rem;
     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
     margin: 25px;
@@ -165,12 +218,14 @@ section:nth-child(2n+1) {
 
 .skill-name span {
     color: white;
-    margin-left: 10px;
     font-size: 1rem;
+    margin-left: 10px;
     vertical-align: middle;
 }
 
-/* Work experience  */
+
+
+/* Work Experience */
 
 .timeline {
     position: relative;
@@ -191,7 +246,7 @@ section:nth-child(2n+1) {
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: lightgray;
+    background-color: lightgrey;
     top: 25%;
     border-radius: 50%;
     z-index: 1;
@@ -225,13 +280,12 @@ section:nth-child(2n+1) {
 
 #timeline-divider {
     position: absolute;
+    width: 0;
     top: 10%;
     left: 50%;
-    width: 0;
     border: 1px dashed #0096fa6b;
     height: 66%;
     color: #433E3F;
-
 }
 
 #timeline-divider .timeline-traveller {
@@ -249,15 +303,13 @@ section:nth-child(2n+1) {
 
 .experience-designation {
     font-size: 1.4rem;
-    text-transform: capitalize;
 }
 
 .experience-company-name {
-    margin: 2px 0 2px;
+    margin: 5px 0 0;
     color: #eb822d;
     font-weight: 400;
-    font-size: 1.1rem;
-    text-transform: capitalize;
+    font-size: 1.2rem;
 }
 
 .experience-duration {
@@ -274,9 +326,10 @@ section:nth-child(2n+1) {
     line-height: 20px;
 }
 
-.text-align-justify {
-    text-align: justify;
-}
+
+
+
+
 
 /* Portfolio Section */
 
@@ -312,8 +365,6 @@ section:nth-child(2n+1) {
     color: transparent;
     text-align: center;
     padding: 10px;
-    vertical-align: middle;
-
 }
 
 .portfolio-image-container:hover {
@@ -325,7 +376,9 @@ section:nth-child(2n+1) {
     color: white;
 }
 
-/* Contact Section  */
+
+
+/* Contact Form */
 
 #contact {
     background-color: #0abcf9;
@@ -363,8 +416,8 @@ section:nth-child(2n+1) {
 }
 
 #my-details-container p {
-    font-size: 0.9rem;
     color: #d9dcdd;
+    font-size: 0.9rem;
 }
 
 .my-details-info-container {
@@ -381,12 +434,13 @@ section:nth-child(2n+1) {
     color: white;
 }
 
-/* .my-details-icon {
+.my-details-icon {
     width: 1rem;
     height: 1rem;
     vertical-align: bottom;
     margin-right: 0.5rem;
-} */
+}
+
 
 #contact-form input,
 textarea {
@@ -437,7 +491,37 @@ button:focus {
     outline: none;
 }
 
-/* Common color classes  */
+/* Common Text Align Classes */
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Common Margin Classes */
+
+.m0 {
+    margin: 0;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb50px {
+    margin-bottom: 50px;
+}
+
+
+
+/*common color classes */
 
 .text-highlight {
     color: #2857a4;
@@ -446,23 +530,14 @@ button:focus {
 }
 
 
-/* Common margin classes  */
-.m-0 {
-    margin: 0;
-}
+/* setting background-color */
 
-.mb-75 {
-    margin-bottom: 75px;
+.m-blue {
+    color: #2857a4;
 }
-
-/* Setting Background classes  */
 
 .mb-blue {
     background-color: #2857a4;
-}
-
-.mb-green {
-    background-color: green;
 }
 
 .mb-orange {
@@ -473,20 +548,13 @@ button:focus {
     background-color: #0b8176;
 }
 
-.mb-red {
-    background-color: #f00000;
-}
-
 .mb-light-purple {
     background-color: #93738c;
 }
 
-/* Percentage classes  */
 
-.seventy-percent {
-    height: inherit;
-    width: 70%;
-}
+
+/*Percentage Classes */
 
 .eighty-five-percent {
     height: inherit;
@@ -501,4 +569,61 @@ button:focus {
 .fifty-percent {
     height: inherit;
     width: 50%;
+}
+
+
+@media only screen and (max-width: 572px) {
+
+    .timeline-box {
+        width: 100%;
+        left: 10% !important;
+    }
+
+    .bars {
+        display: block;
+    }
+
+
+    .nav-menu {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .timeline-box {
+        width: 90%;
+        left: 10% !important;
+    }
+
+    .timeline-box::after {
+        left: -9.3% !important;
+    }
+
+    #timeline-divider {
+        top: 10%;
+        left: 2%;
+    }
+
+    #contact-form {
+        margin-left: 0%;
+    }
+
+    #contact-container {
+        flex-wrap: wrap;
+    }
+
+    #my-details-container {
+        width: 80%;
+        margin: 10%;
+    }
+
+    #contact-form-container {
+        width: 80%;
+        margin: 10%;
+    }
+
 }
