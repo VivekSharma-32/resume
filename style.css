@@ -552,7 +552,13 @@ button:focus {
     background-color: #93738c;
 }
 
+.mb-purple {
+    background-color: purple;
+}
 
+.mb-green {
+    background-color: rgb(9, 99, 9);
+}
 
 /*Percentage Classes */
 
@@ -564,6 +570,16 @@ button:focus {
 .eighty-percent {
     height: inherit;
     width: 80%;
+}
+
+.seventy-percent {
+    height: inherit;
+    width: 70%;
+}
+
+.seventy-five-percent {
+    height: inherit;
+    width: 75%;
 }
 
 .fifty-percent {
